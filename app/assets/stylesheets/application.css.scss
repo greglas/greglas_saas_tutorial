@@ -21,7 +21,7 @@ h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
-body, .navbar {
+.navbar, .home-callout {
 //Gradient provided by ColorZilla
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,7db9e8+99 */
 background: #1e5799; /* Old browsers */
@@ -33,6 +33,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 }
 
 .navbar {
+  color: white;
   border: none;
 }
 
+.home-callout{
+  color: white;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
